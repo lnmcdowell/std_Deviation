@@ -29,8 +29,8 @@ func std_Deviation(data:[Double]){
         return $0 + $1/Double(tmpDiff.count - 1)
     }
     
-    let stdDev = squaredStdDeviation.squareRoot()
-    print("\(stdDev)")
+    //let stdDev = squaredStdDeviation.squareRoot()
+    //print("\(stdDev)")
     var outliers = [Double]()
     var outliers2 = [Double]()
     data.forEach{num in
